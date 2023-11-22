@@ -138,7 +138,7 @@ html {
 }
 
 .section-1-icons i {
-  font-size: 30rem;
+  font-size: 28rem;
   color: #a79a2d;
   position: absolute;
   transform: translate(-50%, -50%) scale(0);
@@ -360,12 +360,12 @@ html {
 /* Section 4 */
 .section-4 {
   width: 100%;
-  height: 35vh;
+  height: 40vh;
   background-color: #222;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  padding: 3rem 0;
+  padding: 2rem 0;
   position: relative;
 }
 
@@ -432,9 +432,10 @@ html {
 /* End of Section 4 */
 
 /* Responsive */
-  @media (max-width: 1440px){
-    .section-3 {
-      height: 100vh;
+  @media (max-width: 920px){
+    .section-1 {
+      padding-top: 19rem;
+      padding-bottom: 2rem;
     }
   }
 /* End of responsive */
